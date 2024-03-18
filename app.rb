@@ -34,12 +34,18 @@ end
 # ----------------------------------------- #
 
 get("/square/results") do
+  @number = params.fetch("number").to_i
+  @square = (@number * @number).to_f
+
   erb(:square_results)
 end
 
 # ----------------------------------------- #
 
 get("/square_root/results") do
+  @user_number = params.fetch("user_number").to_i
+  @square_root = Math.sqrt(@user_number).to_f
+  
   erb(:square_root_results)
 end
 
