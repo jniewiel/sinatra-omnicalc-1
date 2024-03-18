@@ -1,7 +1,7 @@
 {
   "editor.tabSize": 2,
   "editor.acceptSuggestionOnEnter": "on",
-  "editor.bracketPairColorization.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
   "editor.cursorSurroundingLines": 4,
   "editor.dragAndDrop": false,
   "editor.guides.bracketPairs": true,
@@ -71,5 +71,6 @@
     "*.html.erb": "erb"
   },
   "editor.inlineSuggest.showToolbar": "always",
-  "editor.snippetSuggestions": "bottom"
+  "editor.snippetSuggestions": "bottom",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true
 }
