@@ -70,5 +70,6 @@
   "files.associations": {
     "*.html.erb": "erb"
   },
-  "editor.inlineSuggest.showToolbar": "always"
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.snippetSuggestions": "bottom"
 }
